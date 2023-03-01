@@ -1,0 +1,174 @@
+a {
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Abel", sans-serif;
+}
+.currentLink {
+  color: blue;
+  background-color: #000000;
+}
+ul.about {
+  color: #15d397;
+  background-color: white;
+}
+
+.about {
+  color: white;
+  font-family: "Abel", sans-serif;
+  margin-bottom: 2em;
+  background-color: white;
+  line-height: 2em;
+  font-size: 20px;
+  margin-left: 10em;
+  margin-right: 10em;
+  margin-top: 1em;
+}
+
+head,
+h1 {
+  background-color: black;
+  color: white;
+  font-family: "Abel", sans-serif;
+}
+h1 {
+  position: absolute;
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 75px;
+  color: #3ca3d6;
+}
+nav {
+  background-color: black;
+  float: right;
+  margin-top: 3em;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+.head-body {
+  background-color: black;
+}
+
+.motto {
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  font-family: "Abel", sans-serif;
+  color: #3ca3d6;
+  font-size: 40px;
+}
+
+.motto-desc {
+  margin: 0;
+  position: absolute;
+  top: 87%;
+  left: 15%;
+  font-family: "Abel", sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+.video_motto_div {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+video {
+  display: flex;
+  object-fit: cover;
+  align-items: center;
+  display: block;
+  opacity: 40%;
+  margin-right: 0;
+  padding-left: 0;
+  margin-top: 2em;
+  padding-top: 2em;
+  height: 100%;
+  width: 100%;
+}
+/*
+div.slide-left {
+  width: 100%;
+  overflow: hidden;
+}
+div.slide-left p {
+  animation: slide-left 5s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+*/
+.member_pic1,
+.member_pic2,
+.member_pic3 {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 2em;
+}
+.members {
+  padding: 10em;
+}
+.team_desc {
+  color: white;
+  font-family: "Abel", sans-serif;
+  margin-bottom: 2em;
+
+  line-height: 2em;
+  font-size: 20px;
+  margin-left: 5em;
+  margin-right: 10em;
+  margin-top: 2em;
+}
+.member1,
+.member2,
+.member3 {
+  display: flex;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 0;
+  border-bottom-color: blue;
+  border-top-color: blue;
+  border: solid;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+.twitter {
+  height: 2rem;
+  width: 2rem;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.footer {
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 1em;
+  padding: 1em;
+}
+
+.grid {
+  background-color: white;
+}
