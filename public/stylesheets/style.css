@@ -1,3 +1,30 @@
+video {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 40%;
+  background-color: black;
+}
+body {
+  z-index: -2;
+  background-color: black;
+}
+.main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+}
+.main2 {
+  background-color: white;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 a {
   color: white;
   padding: 20px;
@@ -5,17 +32,33 @@ a {
   text-decoration: none;
   font-family: "Abel", sans-serif;
 }
-.currentLink {
-  color: blue;
-  background-color: #000000;
+
+h1 {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 75px;
+  color: #3ca3d6;
+  font-family: "Abel", sans-serif;
+  background-color: transparent;
 }
+nav {
+  background-color: transparent;
+  float: right;
+  margin-top: 3em;
+  font-family: "Abel", sans-serif;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
 ul.about {
   color: #15d397;
   background-color: white;
 }
 
 .about {
-  color: white;
+  color: black;
   font-family: "Abel", sans-serif;
   margin-bottom: 2em;
   background-color: white;
@@ -24,97 +67,10 @@ ul.about {
   margin-left: 10em;
   margin-right: 10em;
   margin-top: 1em;
+  margin-bottom: 0;
 }
-
-head,
-h1 {
-  background-color: black;
-  color: white;
-  font-family: "Abel", sans-serif;
-}
-h1 {
-  position: absolute;
-  margin-top: 0;
-  padding-top: 0;
-  font-size: 75px;
-  color: #3ca3d6;
-}
-nav {
-  background-color: black;
-  float: right;
-  margin-top: 3em;
-}
-
-h2 {
-  margin-bottom: 0px;
-}
-
-.head-body {
-  background-color: black;
-}
-
-.motto {
-  margin: 0;
-  position: absolute;
-  top: 80%;
-  left: 15%;
-  font-family: "Abel", sans-serif;
-  color: #3ca3d6;
-  font-size: 40px;
-}
-
-.motto-desc {
-  margin: 0;
-  position: absolute;
-  top: 87%;
-  left: 15%;
-  font-family: "Abel", sans-serif;
-  color: white;
-  font-size: 30px;
-}
-
-.video_motto_div {
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-video {
-  display: flex;
-  object-fit: cover;
-  align-items: center;
-  display: block;
-  opacity: 40%;
-  margin-right: 0;
-  padding-left: 0;
-  margin-top: 2em;
-  padding-top: 2em;
-  height: 100%;
-  width: 100%;
-}
-/*
-div.slide-left {
-  width: 100%;
-  overflow: hidden;
-}
-div.slide-left p {
-  animation: slide-left 5s;
-}
-
-@keyframes slide-left {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-*/
+/*****************************/
+/* team styling*/
 .member_pic1,
 .member_pic2,
 .member_pic3 {
@@ -144,6 +100,8 @@ div.slide-left p {
   display: flex;
 }
 
+/*****************************/
+/*footer styling*/
 .logos {
   display: flex;
   justify-content: space-evenly;
@@ -167,8 +125,10 @@ div.slide-left p {
   text-align: center;
   margin: 1em;
   padding: 1em;
-}
-
-.grid {
   background-color: white;
+}
+#contact {
+  background-color: white;
+  margin-top: 0;
+  padding-top: 0;
 }
