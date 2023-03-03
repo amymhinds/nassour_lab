@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    
   <head>
     <link rel="stylesheet" href="/stylesheets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -8,57 +9,84 @@
       href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
   </head>
 
+
+  
   <section class="main">
     <div class="head_div">
       <nav class="head_navbar">
-        <a href="/home">Home</a>
-        <a href="/team">Team</a>
-        <a href="/research">Research</a>
-        <a href="/publications">Publications</a>
-        <a href="/news">News</a>
-        <a href="/contact">Contact</a>
+       <a  class = "mainlink" href="#home">Home</a>
+       <a  href="/team">Team</a>
+       <a  href="/research">Research</a>
+       <a  href="/publications">Publications</a>
+       <a href="/contact">Contact</a>
       </nav>
-      <h1 class="head_title">Nassour Lab</h1>
+
     </div>
 
+    <div ><h1 class ="title">NASSOUR LAB</h1></div>
     <div id="video_motto_div" class="grid1">
       <video autoplay muted loop>
         <source src="https://i.imgur.com/tB0hiOE.mp4" type=video/mp4>
       </video>
 
-      <div class="slide-left">
-        <p class="motto">
-          Telomeres and Immortality of Cancers
-        </p>
-        <p class="motto-desc">
-          Studying how cancer cells evade telomere-dependent proliferative
-          barriers and achieve immortality
-        </p>
-      </div>
+      <div class="motto_main">
+        
+        <p id="telomere">TELOMERE FUNCTIONS IN AGING AND CANCER</p>
+      
     </div>
   </section>
 
-  <section class="main2">
-    <p class="about">
-      Cancers arise by an evolutionary process as genetic and epigenetic changes
-      accumulate in somatic cells allowing them to escape proliferative barriers
-      and achieve immortality. The Nassour lab focuses on studying the role of
-      mammalian telomeres in implementing these barriers and preventing the
-      spread of cells that are susceptible to malignant transformation. Our
-      research is focused on investigating how telomere functions synergize with
-      the autophagy and innate immune pathways to create proliferative barriers,
-      prevent cellular immortalization, and safeguard organisms from cancer as
-      they age. By exploring the intricate interplay between these pathways, we
-      strive to gain a deeper understanding of the early stages of malignant
-      transformation and develop innovative strategies to prevent and treat
-      cancer.
+  <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+      
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+      
+            // Store hash
+            var hash = this.hash;
+      
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+      
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+      </script>
+ <div id="container">
+  <section class="main2" id="home">
+   
+    <p class="about1">
+        Our laboratory is investigating various aspects of telomere biology, with a particular focus on 
+        understanding how the shortening of telomeres during replicative aging creates barriers to cell 
+        proliferation and restricts the development of cancer. We use a combination of cutting-edge techniques 
+        in cell biology, molecular biology, and single-cell multiomics to unravel the complex interplay between 
+        telomere function, innate immune signaling, and autophagy, and how these pathways synergize to suppress 
+        the early stages of tumor development. Our ultimate objective is to deepen our understanding of cancer biology 
+        and develop innovative strategies to combat this disease.
     </p>
-    <ul class="about">
+    <ul class="about2">
       Currently, we are working on these aspects of telomere biology:
       <li>Telomere-dependent proliferative barriers</li>
       <li>Escape from crisis and immortalization</li>
@@ -67,13 +95,14 @@
         Telomere deprotection, genomic instability, and innate immune activation
       </li>
     </ul>
-    <p class="about">
-      We strive to create a supportive, diverse, and inclusive laboratory
-      environment with exceptional training and career development opportunities
-      for fellows and students. We encourage you to explore our website and
-      contact us for discussions, collaborations, or career opportunities.
+    <p class="about3">
+        We strive to create a supportive, diverse, and inclusive laboratory 
+        environment with exceptional training and career development opportunities for fellows and students. 
+        We encourage you to explore our website and contact us for discussions, collaborations, or career opportunities.
     </p>
-  </section>
+    <%- include('./partials/footer') %>
 
-  <%- include('./partials/footer') %>
+  </section>
+</div>
+
 </html>

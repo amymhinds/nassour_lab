@@ -6,9 +6,66 @@ video {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 40%;
+  opacity: 20%;
   background-color: black;
 }
+a {
+  color: white;
+  padding: 20px;
+  font-size: 22px;
+  text-decoration: none;
+  font-family: "Abel", sans-serif;
+}
+a:hover {
+  color: #3089b4;
+}
+.mainlink {
+  color: #3089b4;
+}
+nav {
+  background-color: transparent;
+  float: right;
+  margin-top: 3em;
+  font-family: "Abel", sans-serif;
+  margin-right: 3em;
+}
+
+.title {
+  position: absolute;
+  justify-content: center;
+  top: 50%;
+  left: 30%;
+  margin: auto;
+  font-size: 85px;
+  color: #3089b4;
+  font-weight: bold;
+  font-family: "Tilt Warp", cursive;
+  background-color: transparent;
+}
+.motto_main {
+  position: absolute;
+  justify-content: center;
+  top: 60%;
+  left: 34%;
+  font-size: 25px;
+}
+#video_motto_div {
+  color: WHITE;
+  font-family: "Abel", sans-serif;
+}
+
+#telomere {
+  font-size: 25px;
+  margin-right: 0.5em;
+  float: left;
+  display: inline-block;
+}
+#telomere2 {
+  float: right;
+  font-size: 25px;
+  display: inline-block;
+}
+
 body {
   z-index: -2;
   background-color: black;
@@ -18,56 +75,43 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: transparent;
+  scroll-behavior: smooth;
 }
+
+/*********************/
+/*section 2 main page*/
+
 .main2 {
   background-color: white;
   margin-bottom: 0;
   padding-bottom: 0;
-}
-
-a {
-  color: white;
-  padding: 20px;
+  width: 100vw;
+  height: 100vh;
   font-size: 20px;
-  text-decoration: none;
-  font-family: "Abel", sans-serif;
+  font-size: 1.5vw;
+  scroll-behavior: smooth;
 }
 
-h1 {
-  margin-top: 0;
-  padding-top: 0;
-  font-size: 75px;
-  color: #3ca3d6;
-  font-family: "Abel", sans-serif;
-  background-color: transparent;
-}
-nav {
-  background-color: transparent;
-  float: right;
-  margin-top: 3em;
-  font-family: "Abel", sans-serif;
-}
-
-h2 {
-  margin-bottom: 0px;
-}
-
-ul.about {
-  color: #15d397;
+.about1,
+.about2,
+.about3 {
   background-color: white;
-}
-
-.about {
   color: black;
   font-family: "Abel", sans-serif;
   margin-bottom: 2em;
-  background-color: white;
-  line-height: 2em;
-  font-size: 20px;
+  text-align: justify;
+  line-height: 1.5em;
   margin-left: 10em;
   margin-right: 10em;
-  margin-top: 1em;
   margin-bottom: 0;
+}
+.about1 {
+  padding-top: 3em;
+}
+
+.about2 {
+  color: #3089b4;
+  background-color: white;
 }
 /*****************************/
 /* team styling*/
@@ -87,7 +131,6 @@ ul.about {
   color: white;
   font-family: "Abel", sans-serif;
   margin-bottom: 2em;
-
   line-height: 2em;
   font-size: 20px;
   margin-left: 5em;
@@ -98,6 +141,46 @@ ul.about {
 .member2,
 .member3 {
   display: flex;
+}
+/******************************/
+/* research page style */
+
+#research-page {
+  background-color: #123343;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+}
+.nav-title {
+  position: absolute;
+  justify-content: center;
+  margin: auto;
+  font-size: 85px;
+  color: white;
+  font-family: "Tilt Warp", bold;
+  background-color: transparent;
+  height: auto;
+}
+.research-title {
+  color: white;
+  font-family: "Abel", sans-serif;
+}
+.research-div {
+  margin-top: 3em;
+}
+.research-p {
+  font-family: "Abel", sans-serif;
+  color: white;
+}
+#res-footer {
+  background-color: white;
+
+  justify-content: center;
+  font-family: "Abel", sans-serif;
+  bottom: 0;
+  float: left;
+  width: 100%;
 }
 
 /*****************************/
@@ -118,17 +201,35 @@ ul.about {
   width: 2rem;
   justify-content: space-evenly;
   text-align: center;
+  margin-top: 1em;
 }
 
 .footer {
   justify-content: space-evenly;
   text-align: center;
   margin: 1em;
+
   padding: 1em;
+
   background-color: white;
+}
+
+#container {
+  position: relative;
 }
 #contact {
   background-color: white;
-  margin-top: 0;
-  padding-top: 0;
+  position: absolute;
+  justify-content: center;
+  font-family: "Abel", sans-serif;
+  bottom: 0;
+  float: left;
+  width: 100%;
+}
+.cu {
+  margin-top: 1em;
+  height: 3em;
+  width: 13em;
+  justify-content: space-evenly;
+  text-align: center;
 }

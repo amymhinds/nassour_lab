@@ -1,34 +1,70 @@
-<%- include('./partials/header') %>
-<body>
-  <div class="members">
-    <div class="member1">
-      <div class="img_crop_1">
-        <img class="member_pic1" src="https://i.imgur.com/NzxkG6j.png" />
-      </div>
-      <p class="team_desc">
-        Joined Nassour Lab in October 2019. Specializes in annoying Joe, cuddles
-        with Amy, eating anything.
-      </p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap"
+      rel="stylesheet"
+    />
+
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  </head>
+
+  <section class="main">
+    <div class="head_div"></div>
+    <nav class="head_navbar">
+        
+            <a   href="/home">Home</a>
+            <a  class = "mainlink"href="/team">Team</a>
+            <a  href="/research">Research</a>
+            <a  href="/publications">Publications</a>
+            <a href="/contact">Contact</a>
+           </nav>
+
     </div>
 
-    <div class="member2">
-      <div class="img_crop_2">
-        <img class="member_pic2" src="https://i.imgur.com/UpX4B8M.png" />
-      </div>
-      <p class="team_desc">
-        Puts the Nassour in the Nassour Lab. The OG - original gansta. Knows
-        more science than your mom. Prioritizes windows..
-      </p>
-    </div>
+    <body>
+      <div class="members">
+        <div class="member1">
+          <div class="img_crop_1">
+            <img class="member_pic1" src="https://i.imgur.com/NzxkG6j.png" />
+          </div>
+          <p class="team_desc">
+            Joined Nassour Lab in October 2019. Specializes in annoying Joe,
+            cuddles with Amy, eating anything.
+          </p>
+        </div>
 
-    <div class="member3">
-      <div class="img_crop_3">
-        <img class="member_pic3" src="https://i.imgur.com/fMbF26b.jpg" />
+        <div class="member2">
+          <div class="img_crop_2">
+            <img class="member_pic2" src="https://i.imgur.com/UpX4B8M.png" />
+          </div>
+          <p class="team_desc">
+            Puts the Nassour in the Nassour Lab. The OG - original gansta. Knows
+            more science than your mom. Prioritizes windows..
+          </p>
+        </div>
+
+        <div class="member3">
+          <div class="img_crop_3">
+            <img class="member_pic3" src="https://i.imgur.com/fMbF26b.jpg" />
+          </div>
+          <p class="team_desc">
+            Web developer, actuary, bioinformaticion. What cant she do?
+          </p>
+        </div>
       </div>
-      <p class="team_desc">
-        Web developer, actuary, bioinformaticion. What cant she do?
-      </p>
-    </div>
-  </div>
-  <%- include('./partials/footer') %>
-</body>
+      <%- include('./partials/footer') %>
+    </body>
+  </section>
+</html>

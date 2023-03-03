@@ -9,6 +9,7 @@ require("./config/database");
 
 var indexRouter = require("./routes/index");
 var teamRouter = require("./routes/team");
+var researchRouter = require("./routes/research");
 
 var app = express();
 
@@ -24,6 +25,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
 app.use("/team", teamRouter);
+app.use("/research", researchRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
