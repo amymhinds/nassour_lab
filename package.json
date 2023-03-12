@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "build": "react scripts build",
     "start": "node ./bin/www",
     "pre-deploy": "npm run build",
     "deploy": "gh-pages -d build"
