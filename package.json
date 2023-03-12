@@ -13,5 +13,6 @@
     "http-errors": "~1.6.3",
     "mongoose": "^7.0.0",
     "morgan": "~1.9.1"
-  }
+  },
+  "homepage": "https://amymhinds.github.io/nassour_lab"
 }
