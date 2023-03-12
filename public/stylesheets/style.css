@@ -6,7 +6,7 @@ video {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 20%;
+  opacity: 40%;
   background-color: black;
 }
 a {
@@ -28,6 +28,52 @@ nav {
   margin-top: 3em;
   font-family: "Abel", sans-serif;
   margin-right: 3em;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding-bottom: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  opacity: 50%;
+  text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .title {
@@ -70,6 +116,7 @@ body {
   z-index: -2;
   background-color: black;
 }
+
 .main {
   position: relative;
   width: 100vw;
@@ -115,6 +162,24 @@ body {
 }
 /*****************************/
 /* team styling*/
+
+.title-team {
+  position: absolute;
+  justify-content: center;
+  top: 50%;
+  left: 40%;
+  margin: auto;
+  font-size: 85px;
+  color: #3089b4;
+  font-weight: bold;
+  font-family: "Tilt Warp", cursive;
+  background-color: transparent;
+}
+.team-video {
+  opacity: 70%;
+  overflow: hidden;
+  background-color: #3330b4;
+}
 .member_pic1,
 .member_pic2,
 .member_pic3 {
@@ -146,7 +211,7 @@ body {
 /* research page style */
 
 #research-page {
-  background-color: #123343;
+  background-color: black;
   position: relative;
 
   display: flex;
@@ -158,31 +223,143 @@ body {
   margin: auto;
   font-size: 85px;
   color: white;
-  font-family: "Tilt Warp", bold;
+  font-family: "Abel", sans-serif;
   background-color: transparent;
   height: auto;
+  margin-left: 0.5em;
 }
 .research-title {
   color: white;
   font-family: "Abel", sans-serif;
 }
 .research-div {
-  margin-top: 3em;
+  margin: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.research-image {
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+}
+.research-image2 {
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+}
+
 .research-p {
   font-family: "Abel", sans-serif;
   color: white;
+  text-align: justify;
+  margin-right: 2em;
 }
 #res-footer {
   background-color: white;
-
   justify-content: center;
   font-family: "Abel", sans-serif;
   bottom: 0;
   float: left;
   width: 100%;
 }
+#research-overall {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  scroll-behavior: smooth;
+}
+.research-video {
+  opacity: 70%;
+}
+#res-title {
+  left: 35%;
+}
+.res2 {
+  margin-left: 2em;
+}
+#telomere-dynamics,
+#escaping-crisis,
+#autophagy-cell-death,
+#autophagy-gen-int,
+#telo-mito {
+  background-color: #0e516c;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  font-size: 20px;
+  font-size: 1.5vw;
+  scroll-behavior: smooth;
+}
 
+/*******************************/
+/*contact styling*/
+.main-contact {
+  background-image: url("https://i.imgur.com/uWBGd2p.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.googlemap {
+  margin-left: 0;
+  margin-top: 70px;
+}
+.map {
+  display: inline-block;
+}
+.contact {
+  margin: 3em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-body {
+  z-index: -2;
+  background-color: white;
+}
+.contact-info {
+  margin-left: 50px;
+  font-family: "Abel", sans-serif;
+  display: inline-block;
+  margin-top: 100px;
+}
+.cont-img {
+  margin-top: 1em;
+  height: 60%;
+  width: 60%;
+}
+
+.contact-title {
+  position: absolute;
+  justify-content: center;
+  top: 50%;
+  left: 35%;
+  margin: auto;
+  font-size: 85px;
+  color: white;
+  font-weight: bold;
+  font-family: "Tilt Warp", cursive;
+  background-color: transparent;
+}
+.email {
+  height: 10%;
+  width: 10%;
+}
+.twitter-contact {
+  height: 9%;
+  width: 9%;
+  padding-bottom: 0.15em;
+}
+.address {
+  text-align: center;
+}
+.contact-pics {
+  justify-content: center;
+  margin-left: 8em;
+}
 /*****************************/
 /*footer styling*/
 .logos {

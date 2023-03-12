@@ -12,87 +12,188 @@
       href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap"
       rel="stylesheet"
     />
-    <script defer src="research.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   </head>
 
-  <section id="research-page">
-    <div class="head_div">
-      <h1 class="nav-title">Nassour Lab</h1>
-      <nav class="head_navbar">
-        <a href="/home">Home</a>
-        <a href="/team">Team</a>
-        <a class="mainlink" href="/research">Research</a>
-        <a href="/publications">Publications</a>
-        <a href="/contact">Contact</a>
-      </nav>
-    </div>
+  <section id="research-overall">
+    <nav class="head_navbar">
+      <a href="/home">Home</a>
+      <a href="/team">Team</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          <a class="mainlink" href="/research">Research</a>
+        </button>
+        <div class="dropdown-content">
+          <a href="#telomere-dynamics">Proliferative Barriers</a>
+          <a href="#escaping-crisis">Cell Immortalization </a>
+          <a href="#telo-mito">Telomere-Mitochondrial Crosstalk </a>
+          <a href="#autophagy-cell-death">Autophagy and Cell Death</a>
+          <a href="#autophagy-gen-int">Autophagy and Genomic Integrity</a>
+        </div>
+      </div>
 
-    <div class="research-div">
-      <h1 class="research-title" id="r1">
-        TELOMERE DYNAMICS AND PROLIFERATIVE BARRIERS
-      </h1>
-      <p class="research-p" id="d1">
-        Telomere shortening in human somatic cells functions as a tumor
-        suppressor mechanism by establishing two distinct barriers to
-        proliferation: senescence [mortality stage 1 (M1)] and crisis [mortality
-        stage 2 (M2)]. Senescence is a state of permanent cell cycle arrest that
-        occurs in response to telomere deprotection and activation of the tumor
-        suppressor pathways p53/Rb. If cell-cycle checkpoints are weakened,
-        cells can bypass senescence and continue to proliferate, leading to
-        further telomere shortening. Ultimately, cells will enter a terminal
-        phase known as replicative crisis, in which critically short telomeres
-        undergo end-to-end fusions that trigger cell death via autophagy and
-        type I interferon (IFN) activities. Our research focuses on exploring
-        the underlying biology of telomere-dependent proliferative barriers and
-        how they prevent the development of cancer. We aim to employ single-cell
-        methodologies to elucidate the molecular characteristics of senescence
-        and crisis cells, define their molecular identity, and identify
-        potential biomarkers to enable the detection and tracking of naturally
-        occurring senescent and crisis cells in precancerous lesions.
-      </p>
+      <a href="/publications">Publications</a>
+      <a href="/philosophy">Philosophy</a>
+      <a href="/contact">Contact</a>
+    </nav>
+    <script>
+      $(document).ready(function() {
+        $("a").on("click", function(event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top
+              },
+              800,
+              function() {
+                window.location.hash = hash;
+              }
+            );
+          }
+        });
+      });
+    </script>
+
+    <div><h1 class="title" id="res-title">RESEARCH</h1></div>
+    <div id="video_motto_div" class="grid1">
+      <video class="research-video" autoplay muted loop>
+        <source src="https://i.imgur.com/fw1b7AW.mp4" type=video/mp4>
+      </video>
     </div>
-    <div class="research-div">
-      <h1 class="research-title" id="r2">
-        ESCAPE FROM REPLICATIVE CRISIS AND IMMORTALIZATION
-      </h1>
-      <p class="research-p" id="d2">
-        Replicative crisis serves as a potent tumor suppressor program that
-        eliminates cells that have lost the tumor suppressor pathways and
-        bypassed senescence. Rare cells, however, acquire driver mutations
-        allowing them to escape crisis and evolve into a neoplastic state. Such
-        post-crisis cells harbor characteristics of malignant transformation,
-        including an unstable genome, loss of checkpoint control, and
-        upregulated telomere maintenance. We aim to understand the mechanisms
-        that enable normal cells to escape crisis, acquire immortality, and
-        progress to a cancerous state. By analyzing the temporal sequence of
-        alterations that occur during the escape from crisis, we hope to
-        identify the earliest events in tumor evolution and gain a comprehensive
-        understanding of tumorigenesis.
-      </p>
-    </div>
-    <div class="research-div">
-      <h1 class="research-title" id="r3">AUTOPHAGY AND CELL DEATH</h1>
-      <p class="research-p" id="d3">
-        Our recent studies have pointed to autophagy-dependent cell death as an
-        integral aspect of crisis and suggested that loss of autophagy function
-        is required for cancer initiation. Our research will focus on the
-        mechanisms underlying cell death during replicative crisis, the
-        mechanism of how autophagy is activated and regulated in response to
-        replicative crisis, and how inhibition of autophagy during crisis
-        enables cells with an unstable genome to escape this final barrier
-        against tumor cell establishment. This research illustrates a powerful
-        approach to uncover the central mechanisms that control how autophagy
-        regulates premalignant cell fate and will help create a framework for
-        applying these ideas to improve cancer treatment.
-      </p>
-    </div>
+  </section>
+  <section id="research-page">
+    <section id="telomere-dynamics">
+      <div class="research-div">
+        <div>
+          <h1 class="research-title" id="r1">
+            TELOMERE DYNAMICS AND PROLIFERATIVE BARRIERS
+          </h1>
+          <p class="research-p" id="d1">
+            Telomere shortening in human somatic cells functions as a tumor
+            suppressor mechanism by establishing two distinct barriers to
+            proliferation: senescence [mortality stage 1 (M1)] and crisis
+            [mortality stage 2 (M2)]. Our research focuses on exploring the
+            underlying biology of telomere-dependent proliferative barriers and
+            how they prevent the development of cancer. We aim to elucidate the
+            molecular characteristics of senescence and crisis cells, define
+            their molecular identity, and identify potential biomarkers to
+            enable the detection and tracking of naturally occurring senescent
+            and crisis cells in precancerous lesions.
+          </p>
+        </div>
+        <img class="research-image" src="https://i.imgur.com/cvzx0O7.png" />
+      </div>
+    </section>
+    <section id="escaping-crisis">
+      <div class="research-div">
+        <img class="research-image" src="https://i.imgur.com/IlFfHEW.png" />
+        <div class="res2">
+          <h1 class="research-title" id="r2">
+            ESCAPE FROM CRISIS AND IMMORTALIZATION
+          </h1>
+          <p class="research-p" id="d2">
+            Replicative crisis serves as a potent tumor suppressor program that
+            eliminates cells that have lost the tumor suppressor pathways and
+            bypassed senescence. Rare cells, however, acquire driver mutations
+            allowing them to escape crisis and evolve into a neoplastic state.
+            Such post-crisis cells harbor characteristics of malignant
+            transformation, including an unstable genome, loss of checkpoint
+            control, and upregulated telomere maintenance. Our lab focuses on
+            understanding the mechanisms that enable normal cells to escape
+            crisis, acquire immortality, and progress into a cancerous state.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="telo-mito">
+      <div class="research-div">
+        <div>
+          <h1 class="research-title" id="r3">
+            TELOMERE-MITOCHONDRIAL CORSSTALK AND INNATE IMMUNITY
+          </h1>
+          <p class="research-p" id="d3">
+            In a recent study, we discovered a novel pathway that involves the
+            innate immune sensor ZBP1 activated specifically by telomeric long
+            noncoding RNA (lncRNA) species transcribed from damaged telomeres.
+            Upon binding to telomeric lncRNAs, ZBP1 translocates to the
+            mitochondrial outer membranes to launch a lethal immune response,
+            highlighting a synergy between telomeres, mitochondria, and innate
+            immunity that has evolved to prevent cancer initiation in humans.
+            However, the underlying molecular mechanisms behind telomere-driven
+            innate immune response are not defined and much work needs to be
+            done to understand how telomeres are functionally linked to innate
+            immune pathways. Our lab focuses on identifying novel innate immune
+            sensing pathways that relay telomere stress to mitochondria and
+            examine whether loss of these pathways could provide cells with
+            favorable phenotypes to propagate during the stepwise process of
+            malignant progression.
+          </p>
+        </div>
+
+        <img class="research-image" src="https://i.imgur.com/SzI5pyt.png" />
+      </div>
+    </section>
+    <section id="autophagy-cell-death">
+      <div class="research-div">
+        <img class="research-image" src="https://i.imgur.com/4fNjfy1.png" />
+        <div class="res2">
+          <h1 class="research-title" id="r2">
+            AUTOPHAGY AND CELL DEATH
+          </h1>
+          <p class="research-p" id="d2">
+            Our recent studies have pointed to autophagy-dependent cell death as
+            an integral aspect of crisis and suggested that loss of autophagy
+            function is required for cancer initiation. Our research focuses on
+            the mechanisms underlying cell death during replicative crisis, the
+            mechanism of how autophagy is activated and regulated in response to
+            replicative crisis, and how inhibition of autophagy during crisis
+            enables cells with an unstable genome to escape this final barrier
+            against tumor cell establishment. This research illustrates a
+            powerful approach to uncover the central mechanisms of how autophagy
+            regulates premalignant cell fate.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="autophagy-gen-int">
+      <div class="research-div">
+        <div>
+          <h1 class="research-title" id="r3">
+            AUTOPHAGY AND GENOMIC INTEGRITY
+          </h1>
+          <p class="research-p" id="d3">
+            Micronuclei (MN), small nuclear structures formed by mitotic errors
+            or chromosome breakages, represent a major source of genomic
+            instability. Chromosomes contained within micronuclei are subject to
+            massive DNA fragmentation that occurs upon nuclear envelope rupture
+            and DNA exposure to the cytoplasm. The resulting DNA fragments can
+            undergo two distinct fates: (1) reassemble to form new derivative
+            chromosome containing multiple rearrangements (chromothripsis) or
+            (2) self-ligate into circular DNA structures called double minutes
+            (DMs). We previously demonstrated that dysfunctional telomeres
+            generate MN with fragile nuclear envelopes. Our research focuses on
+            the role of autophagy in the clearance of MN and the resulting
+            consequences on chromothripsis and other types of genomic
+            alterations. These studies will provide mechanistic insight into an
+            entirely new role for autophagy in genome integrity and stability.
+          </p>
+        </div>
+
+        <img class="research-image" src="https://i.imgur.com/xNBLutw.jpg" />
+      </div>
+    </section>
+
     <div id="res-footer">
       <div class="logos">
-        <p class="footer">nassour.joe@gmail.com</p>
         <img class="cu" src="https://i.imgur.com/wklPWMY.png" />
+        <p class="footer">nassour.joe@gmail.com</p>
+
         <a href="https://twitter.com/NassourJoe"
           ><img class="twitter" src="https://i.imgur.com/gjxesPV.png" alt=""
         /></a>

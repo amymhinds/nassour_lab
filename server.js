@@ -10,6 +10,9 @@ require("./config/database");
 var indexRouter = require("./routes/index");
 var teamRouter = require("./routes/team");
 var researchRouter = require("./routes/research");
+var publicationsRouter = require("./routes/publications");
+var philosophyRouter = require("./routes/philosophy");
+var contactRouter = require("./routes/contact");
 
 var app = express();
 
@@ -26,6 +29,9 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use("/", indexRouter);
 app.use("/team", teamRouter);
 app.use("/research", researchRouter);
+app.use("/publications", publicationsRouter);
+app.use("/philosophy", philosophyRouter);
+app.use("/contact", contactRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

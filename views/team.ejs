@@ -13,26 +13,29 @@
       rel="stylesheet"
     />
 
-    
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
   </head>
 
   <section class="main">
-    <div class="head_div"></div>
     <nav class="head_navbar">
-        
-            <a   href="/home">Home</a>
-            <a  class = "mainlink"href="/team">Team</a>
-            <a  href="/research">Research</a>
-            <a  href="/publications">Publications</a>
-            <a href="/contact">Contact</a>
-           </nav>
+      <a href="/home">Home</a>
+      <a class="mainlink" href="/team">Team</a>
+      <a href="/research">Research</a>
+      <a href="/publications">Publications</a>
+      <a href="/philosophy">Philosophy</a>
+      <a href="/contact">Contact</a>
+    </nav>
 
+    <div><h1 class="title-team">TEAM</h1></div>
+    <div id="video_motto_div" class="grid1">
+      <video class="team-video" autoplay muted loop>
+        <source src="https://i.imgur.com/a4hXO1d.mp4" type=video/mp4>
+      </video>
     </div>
-
+  </section>
+  <section>
     <body>
       <div class="members">
         <div class="member1">
@@ -64,7 +67,17 @@
           </p>
         </div>
       </div>
-      <%- include('./partials/footer') %>
     </body>
+
+    <div id="res-footer">
+      <div class="logos">
+        <img class="cu" src="https://i.imgur.com/wklPWMY.png" />
+        <p class="footer">nassour.joe@gmail.com</p>
+
+        <a href="https://twitter.com/NassourJoe"
+          ><img class="twitter" src="https://i.imgur.com/gjxesPV.png" alt=""
+        /></a>
+      </div>
+    </div>
   </section>
 </html>
