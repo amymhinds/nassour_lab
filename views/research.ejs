@@ -61,9 +61,11 @@
 
     <div><h1 class="title" id="res-title">RESEARCH</h1></div>
     <div id="video_motto_div" class="grid1">
-      <video class="research-video" autoplay muted loop>
-        <source src="https://i.imgur.com/fw1b7AW.mp4" type=video/mp4>
-      </video>
+      <div class="video-repeat">
+        <video class="video1" autoplay muted loop>
+          <source src="https://i.imgur.com/fw1b7AW.mp4" type=video/mp4>
+        </video>
+      </div>
     </div>
   </section>
   <section id="research-page">
@@ -73,7 +75,7 @@
           <h1 class="research-title" id="r1">
             TELOMERE DYNAMICS AND PROLIFERATIVE BARRIERS
           </h1>
-          <p class="research-p" id="d1">
+          <p class="research-p">
             Telomere shortening in human somatic cells functions as a tumor
             suppressor mechanism by establishing two distinct barriers to
             proliferation: senescence [mortality stage 1 (M1)] and crisis
@@ -88,15 +90,13 @@
         </div>
         <img class="research-image" src="https://i.imgur.com/cvzx0O7.png" />
       </div>
-    </section>
-    <section id="escaping-crisis">
       <div class="research-div">
         <img class="research-image" src="https://i.imgur.com/IlFfHEW.png" />
         <div class="res2">
-          <h1 class="research-title" id="r2">
+          <h1 class="research-title">
             ESCAPE FROM CRISIS AND IMMORTALIZATION
           </h1>
-          <p class="research-p" id="d2">
+          <p class="research-p">
             Replicative crisis serves as a potent tumor suppressor program that
             eliminates cells that have lost the tumor suppressor pathways and
             bypassed senescence. Rare cells, however, acquire driver mutations
@@ -110,6 +110,7 @@
         </div>
       </div>
     </section>
+
     <section id="telo-mito">
       <div class="research-div">
         <div>
@@ -137,8 +138,6 @@
 
         <img class="research-image" src="https://i.imgur.com/SzI5pyt.png" />
       </div>
-    </section>
-    <section id="autophagy-cell-death">
       <div class="research-div">
         <img class="research-image" src="https://i.imgur.com/4fNjfy1.png" />
         <div class="res2">
@@ -188,16 +187,6 @@
         <img class="research-image" src="https://i.imgur.com/xNBLutw.jpg" />
       </div>
     </section>
-
-    <div id="res-footer">
-      <div class="logos">
-        <img class="cu" src="https://i.imgur.com/wklPWMY.png" />
-        <p class="footer">nassour.joe@gmail.com</p>
-
-        <a href="https://twitter.com/NassourJoe"
-          ><img class="twitter" src="https://i.imgur.com/gjxesPV.png" alt=""
-        /></a>
-      </div>
-    </div>
   </section>
+  <%- include('./partials/footer') %>
 </html>

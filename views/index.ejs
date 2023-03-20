@@ -18,59 +18,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   </head>
-
-  <section class="main">
-    <nav class="head_navbar">
-      <a class="mainlink" href="#home">Home</a>
-      <a href="/team">Team</a>
-      <a href="/research">Research</a>
-      <a href="/publications">Publications</a>
-      <a href="/philosophy">Philosophy</a>
-      <a href="/contact">Contact</a>
-    </nav>
-
-    <div><h1 class="title">NASSOUR LAB</h1></div>
-    <div id="video_motto_div" class="grid1">
-      <video autoplay muted loop>
-        <source src="https://i.imgur.com/tB0hiOE.mp4" type=video/mp4>
-      </video>
-
-      <div class="motto_main">
-        <p id="telomere">TELOMERE FUNCTIONS IN AGING AND CANCER</p>
-      </div>
-    </div>
-  </section>
-
-  <script>
-    $(document).ready(function() {
-      // Add smooth scrolling to all links
-      $("a").on("click", function(event) {
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-
-          // Store hash
-          var hash = this.hash;
-
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $("html, body").animate(
-            {
-              scrollTop: $(hash).offset().top
-            },
-            800,
-            function() {
-              // Add hash (#) to URL when done scrolling (default click behavior)
-              window.location.hash = hash;
-            }
-          );
-        } // End if
-      });
-    });
-  </script>
   <div id="container">
+    <section class="main">
+      <nav class="head_navbar">
+        <a class="mainlink" href="#home">Home</a>
+        <a href="/team">Team</a>
+        <a href="/research">Research</a>
+        <a href="/publications">Publications</a>
+        <a href="/philosophy">Philosophy</a>
+        <a href="/contact">Contact</a>
+      </nav>
+
+      <div><h1 class="title">NASSOUR LAB</h1></div>
+      <div id="video_motto_div" class="grid1">
+        <video class="research-video" autoplay muted loop>
+          <source src="https://i.imgur.com/qazezeu.mp4" type=video/mp4>
+        </video>
+
+        <div class="motto_main">
+          <p id="telomere">TELOMERE FUNCTIONS IN AGING AND CANCER</p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      $(document).ready(function() {
+        // Add smooth scrolling to all links
+        $("a").on("click", function(event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top
+              },
+              800,
+              function() {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
+
     <section class="main2" id="home">
+      <h2 class="about-title">ABOUT US</h2>
       <p class="about1">
         Cancer emerges due to genetic and epigenetic changes that accumulate in
         somatic cells, allowing them to evade normal proliferation limits and
@@ -78,7 +79,8 @@
         biology, with a specific focus on understanding how the shortening of
         telomeres during replicative aging creates barriers to cell
         proliferation and restricts the development of cancer.
-        <br /><br />
+      </p>
+      <p class="about3">
         Our research entails a combination of advanced techniques in cell
         biology, molecular biology, and single-cell multiomics to explore the
         interplay between telomere function, innate immune signaling, and
@@ -97,6 +99,7 @@
         <li>
           Autophagy and telomere-driven cell death
         </li>
+    
       </ul>
       <p class="about3">
         We strive to create a supportive, diverse, and inclusive laboratory
@@ -105,7 +108,16 @@
         website and contact us for discussions, collaborations, or career
         opportunities.
       </p>
-      <%- include('./partials/footer') %>
+      <h2 class="fund-title">SUPPORT</h2>
+      <div class="fund-div">
+        <img class="fund1" src="https://i.imgur.com/OFlQZg8.png" />
+       
+        <img class="fund" src="https://i.imgur.com/qdPGs4M.png" />
+      </div>
+      <div class="fund-div">
+      <img class="fund3" src="https://i.imgur.com/mCZuitt.png" />
+    </div>
     </section>
+    <%- include('./partials/footer') %>
   </div>
 </html>

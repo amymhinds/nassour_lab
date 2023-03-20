@@ -4,9 +4,7 @@
   "private": true,
   "scripts": {
     "build": "react scripts build",
-    "start": "node ./bin/www",
-    "pre-deploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -17,6 +15,5 @@
     "http-errors": "~1.6.3",
     "mongoose": "^7.0.0",
     "morgan": "~1.9.1"
-  },
-  "homepage": "https://amymhinds.github.io/nassour_lab"
+  }
 }

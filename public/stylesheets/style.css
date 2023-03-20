@@ -3,14 +3,16 @@ video {
   z-index: -1;
   top: 0;
   left: 0;
+  /*make these 100 to stretch*/
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 40%;
+  opacity: 60%;
   background-color: black;
 }
+
 a {
-  color: white;
+  color: #C5D0D5;
   padding: 20px;
   font-size: 22px;
   text-decoration: none;
@@ -21,6 +23,12 @@ a:hover {
 }
 .mainlink {
   color: #3089b4;
+}
+.cu-head {
+  height: 10%;
+  width: 6%;
+  margin-left: 2em;
+  margin-top: 1em;
 }
 nav {
   background-color: transparent;
@@ -50,7 +58,7 @@ nav {
   display: none;
   position: absolute;
   background-color: white;
-  min-width: 160px;
+  min-width: 180px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   opacity: 50%;
@@ -64,6 +72,7 @@ nav {
   text-decoration: none;
   display: block;
   font-size: 15px;
+  
 }
 
 /* Change color of dropdown links on hover */
@@ -80,9 +89,9 @@ nav {
   position: absolute;
   justify-content: center;
   top: 50%;
-  left: 30%;
+  left: 27%;
   margin: auto;
-  font-size: 85px;
+  font-size: 100px;
   color: #3089b4;
   font-weight: bold;
   font-family: "Tilt Warp", cursive;
@@ -94,9 +103,10 @@ nav {
   top: 60%;
   left: 34%;
   font-size: 25px;
+  margin-top: 1em;
 }
 #video_motto_div {
-  color: WHITE;
+  color: #d7e6ec;
   font-family: "Abel", sans-serif;
 }
 
@@ -129,7 +139,18 @@ body {
 /*section 2 main page*/
 
 .main2 {
-  background-color: white;
+  background-color: #C5D0D5;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  width: 100vw;
+  height: 150vh;
+  font-size: 20px;
+  font-size: 1.5vw;
+  scroll-behavior: smooth;
+}
+
+.main2-philo, .main2-contact {
+  background-color: #C5D0D5;
   margin-bottom: 0;
   padding-bottom: 0;
   width: 100vw;
@@ -138,11 +159,10 @@ body {
   font-size: 1.5vw;
   scroll-behavior: smooth;
 }
-
 .about1,
 .about2,
 .about3 {
-  background-color: white;
+  background-color: #C5D0D5;
   color: black;
   font-family: "Abel", sans-serif;
   margin-bottom: 2em;
@@ -153,13 +173,61 @@ body {
   margin-bottom: 0;
 }
 .about1 {
-  padding-top: 3em;
+  padding-top: 1em;
 }
 
 .about2 {
   color: #3089b4;
-  background-color: white;
+  background-color: #C5D0D5;
 }
+.fund3 {
+  height: 8%;
+  width: 14%;
+  left: 50%;
+  margin-left: 2em;
+  justify-content: center;
+  text-align: center;
+}
+.fund {
+  height: 10%;
+  width: 17%;
+  left: 50%;
+  margin-left: 2em;
+  justify-content: center;
+  text-align: center;
+}
+.fund1 {
+  height: 13%;
+  width: 22%;
+  left: 50%;
+  margin-left: 2em;
+  justify-content: center;
+  text-align: center;
+}
+.about-title {
+  margin-top:2em;
+  color: black;
+  font-family: "Abel", sans-serif;
+  text-align: center;
+}
+.fund-div {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #C5D0D5
+}
+.fund-title {
+  color: black;
+  font-family: "Abel", sans-serif;
+  text-align: center;
+  margin-top:3em;
+} 
+
+.fund1{
+  margin-right:3em;
+}
+
 /*****************************/
 /* team styling*/
 
@@ -169,16 +237,17 @@ body {
   top: 50%;
   left: 40%;
   margin: auto;
-  font-size: 85px;
+  font-size: 100px;
   color: #3089b4;
   font-weight: bold;
   font-family: "Tilt Warp", cursive;
   background-color: transparent;
 }
 .team-video {
-  opacity: 70%;
+  opacity: 90%;
   overflow: hidden;
-  background-color: #3330b4;
+  height: 100%;
+  width: 100%;
 }
 .member_pic1,
 .member_pic2,
@@ -192,6 +261,7 @@ body {
 .members {
   padding: 10em;
 }
+
 .team_desc {
   color: white;
   font-family: "Abel", sans-serif;
@@ -229,7 +299,7 @@ body {
   margin-left: 0.5em;
 }
 .research-title {
-  color: white;
+  color: black;
   font-family: "Abel", sans-serif;
 }
 .research-div {
@@ -239,19 +309,14 @@ body {
   justify-content: center;
 }
 .research-image {
-  height: 50%;
-  width: 50%;
-  border-radius: 50%;
-}
-.research-image2 {
-  height: 50%;
-  width: 50%;
+  height: 25%;
+  width: 25%;
   border-radius: 50%;
 }
 
 .research-p {
   font-family: "Abel", sans-serif;
-  color: white;
+  color: black;
   text-align: justify;
   margin-right: 2em;
 }
@@ -271,7 +336,7 @@ body {
   scroll-behavior: smooth;
 }
 .research-video {
-  opacity: 70%;
+  opacity: 50%;
 }
 #res-title {
   left: 35%;
@@ -284,7 +349,7 @@ body {
 #autophagy-cell-death,
 #autophagy-gen-int,
 #telo-mito {
-  background-color: #0e516c;
+  background-color: #C5D0D5;
   margin-bottom: 0;
   padding-bottom: 0;
   width: 100vw;
@@ -360,53 +425,104 @@ body {
   justify-content: center;
   margin-left: 8em;
 }
+
+/**********************/
+/*philosophy*/
+
+.philo_main {
+  color: #d7e6ec;
+  position: absolute;
+  justify-content: center;
+  top: 60%;
+  margin-left: 5em;
+  margin-right: 5em;
+  font-size: 25px;
+  margin-top: 1em;
+}
+.philo {
+  font-family: "Abel", sans-serif;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.philo-exp {
+  background-color: #C5D0D5;
+  color: black;
+  font-family: "Abel", sans-serif;
+  margin-bottom: 2em;
+  text-align: justify;
+  line-height: 1.2em;
+  margin-left: 5em;
+  margin-right: 10em;
+  margin-bottom: 0;
+}
+.exp {
+  color: #3089b4;
+  background-color: #C5D0D5;
+  margin-left: 5em;
+  font-family: "Abel", sans-serif;
+}
 /*****************************/
 /*footer styling*/
 .logos {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   text-align: center;
   margin-top: 0;
-  border-bottom-color: blue;
-  border-top-color: blue;
+
   border: solid;
   border-right-color: transparent;
   border-left-color: transparent;
 }
-.twitter {
-  height: 2rem;
-  width: 2rem;
-  justify-content: space-evenly;
+.twitter,
+.youtube,
+.loc,
+.mail {
+  height: 2.5rem;
+  width: 2.5rem;
+  padding-top: 0;
   text-align: center;
   margin-top: 1em;
+  margin-left: 0;
 }
-
 .footer {
-  justify-content: space-evenly;
-  text-align: center;
-  margin: 1em;
-
-  padding: 1em;
-
-  background-color: white;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0.5;
 }
-
 #container {
   position: relative;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 #contact {
   background-color: white;
-  position: absolute;
-  justify-content: center;
+
   font-family: "Abel", sans-serif;
-  bottom: 0;
-  float: left;
+
   width: 100%;
+  margin-top: auto;
 }
-.cu {
-  margin-top: 1em;
-  height: 3em;
-  width: 13em;
-  justify-content: space-evenly;
+
+.cu_head {
+  height: 3rem;
+  width: 15rem;
+  padding-top: 0;
   text-align: center;
+  margin-top: 1em;
+}
+.culogo {
+  height: 70%;
+  width: 25%;
+  margin-top: 0.7em;
+
+  margin-left: 1em;
+  display: flex;
+  justify-content: left;
+}
+.cu-div {
+  top: 0;
+  left: 0;
 }
