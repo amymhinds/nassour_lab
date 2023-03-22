@@ -112,6 +112,11 @@ nav {
   font-weight: bold;
   font-family: "Tilt Warp", cursive;
   background-color: transparent;
+  animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 .motto_main {
   position: absolute;
@@ -120,6 +125,7 @@ nav {
   left: 34%;
   font-size: 25px;
   margin-top: 1em;
+  animation: fadeIn 5s;
 }
 #video_motto_div {
   color: #d7e6ec;
@@ -208,8 +214,11 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: #C5D0D5
+  background-color: #C5D0D5;
+
+  
 }
+
 .fund-title {
   color: black;
   font-family: "Abel", sans-serif;
@@ -219,6 +228,11 @@ body {
 
 .fund1{
   margin-right:3em;
+
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 /*****************************/
@@ -235,6 +249,7 @@ body {
   font-weight: bold;
   font-family: "Tilt Warp", cursive;
   background-color: transparent;
+  animation: fadeIn 5s;
 }
 .team-video {
   opacity: 90%;
@@ -294,6 +309,7 @@ body {
 .research-title {
   color: black;
   font-family: "Abel", sans-serif;
+  animation: fadeIn 5s;
 }
 .research-div {
   margin: 3em;
@@ -430,11 +446,12 @@ body {
   top: 50%;
   left: 35%;
   margin: auto;
-  font-size: 85px;
+  font-size: 100px;
   color: white;
   font-weight: bold;
   font-family: "Tilt Warp", cursive;
   background-color: transparent;
+  animation: fadeIn 5s;
 }
 .email {
   height: 10%;
@@ -455,22 +472,39 @@ body {
 
 /**********************/
 /*philosophy*/
-
+.philo-title{
+  margin:auto;
+  text-align: center;
+  justify-content: center;
+  margin-bottom:0;
+}
+.h1-title{
+  text-align: center;
+  justify-content: center;
+  padding-top: 20%;
+  margin-bottom:0;
+  padding-bottom:0;
+  font-size: 100px;
+  color: #3089b4;
+  font-weight: bold;
+  font-family: "Tilt Warp", cursive;
+  background-color: transparent;
+  animation: fadeIn 5s;
+}
 .philo_main {
   color: #d7e6ec;
-  position: absolute;
-  justify-content: center;
-  top: 60%;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin:auto;
+  
   font-size: 25px;
-  margin-top: 1em;
+  width:78%
 }
 .philo {
   font-family: "Abel", sans-serif;
   text-align: center;
   justify-content: center;
-  display: flex;
+  padding-top:0%;
+  margin-top:0;
+  animation: fadeIn 5s;
 }
 .philo-exp {
   background-color: #C5D0D5;
