@@ -10,6 +10,7 @@ video {
   opacity: 60%;
   background-color: black;
 }
+
 .main2 {
   background-color: #C5D0D5;
   margin-bottom: 0;
@@ -26,6 +27,12 @@ video {
   height: 100vh;
   background-color: transparent;
   scroll-behavior: smooth;
+}
+.nlab-logo{
+  width:20%;
+  height:8%;
+  margin-top:3vh;
+  margin-left:3vh;
 }
 a {
   color: #C5D0D5;
@@ -166,30 +173,14 @@ body {
   color: #3089b4;
   background-color: #C5D0D5;
 }
-.fund3 {
-  height: 8%;
-  width: 14%;
-  left: 50%;
-  margin-left: 2em;
-  justify-content: center;
-  text-align: center;
-  margin-bottom: 2em;
-}
-.fund {
-  height: 10%;
-  width: 17%;
-  left: 50%;
-  margin-left: 2em;
-  justify-content: center;
-  text-align: center;
-}
+
 .fund1 {
-  height: 13%;
-  width: 22%;
+  height: 25%;
+  width: 32%;
   left: 50%;
-  margin-left: 2em;
   justify-content: center;
   text-align: center;
+  margin-bottom: 10vh;
 }
 .about-title {
   margin-top:2em;
@@ -203,9 +194,8 @@ body {
   justify-content: center;
   text-align: center;
   background-color: #C5D0D5;
-
-  
 }
+
 
 .fund-title {
   color: black;
@@ -384,6 +374,9 @@ body {
 .research-video {
   opacity: 50%;
 }
+.research-title{
+  font-family: "Abel", sans-serif;
+}
 #res-title {
   left: 35%;
 }
@@ -419,21 +412,21 @@ body {
   scroll-behavior: smooth;
 }
 .help{
-  height: 25em;
-  width: 30em;
+  height: 70vh;
+  width: 70vh;
   border-radius: 20%
  }
  .name{
   margin-top:2em;
-  font-size: 18px;
+  font-size: 3vh;;
  }
  .name2{
   
-  font-size: 18px;
+  font-size: 2.5vh;
  }
  .name3{
   margin-top:2em;
-  font-size: 18px;
+  font-size: 2.5vh;
  }
 .main-contact {
   margin:0;
@@ -476,7 +469,7 @@ body {
   margin-top: 100px;
 }
 .cont-img {
-  margin-top: 1em;
+  margin-top: 1vh;
   height: 60%;
   width: 60%;
 }
