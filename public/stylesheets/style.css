@@ -536,6 +536,13 @@ body {
   background-color: transparent;
   animation: fadeIn 4s;
 }
+@media screen and (max-width:700px){
+ 
+  .h1-title {
+   font-size: 10vh;
+  }  
+ 
+}
 .philo_main {
   color: #C9DCF5;
   margin:auto;
