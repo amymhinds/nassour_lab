@@ -527,15 +527,13 @@ body {
   text-align: center;
   justify-content: center;
   margin-bottom:0;
-  display: flex;
-  flex-direction: row;
   align-items: center;
 }
 .h1-title{
   text-align: center;
   justify-content: center;
   padding-top: 20%;
-  margin-bottom:0;
+  margin:auto;
   padding-bottom:0;
   font-size: 15vh;
   color: #6BA4F2;
@@ -547,7 +545,6 @@ body {
 .philo_main {
   color: #C9DCF5;
   margin:auto;
-  
   font-size:3vh;
   width:78%
 }
