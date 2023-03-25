@@ -12,7 +12,7 @@ video {
 }
 
 .main2 {
-  background-color: #C5D0D5;
+  background-color: #C9DCF5;
   margin-bottom: 0;
   padding-bottom: 0;
   width: 100vw;
@@ -42,10 +42,10 @@ a {
   font-family: "Abel", sans-serif;
 }
 a:hover {
-  color: #3089b4;
+  color: #6BA4F2;
 }
 .mainlink {
-  color: #3089b4;
+  color: #6BA4F2;
 }
 .cu-head {
   height: 10%;
@@ -155,7 +155,7 @@ body {
 .about1,
 .about2,
 .about3 {
-  background-color: #C5D0D5;
+  background-color: #C9DCF5;
   color: black;
   font-family: "Abel", sans-serif;
   margin-bottom: 2em;
@@ -170,8 +170,8 @@ body {
 }
 
 .about2 {
-  color: #3089b4;
-  background-color: #C5D0D5;
+  color: #6BA4F2;
+  background-color: #C9DCF5;
 }
 
 .fund1 {
@@ -193,7 +193,7 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: #C5D0D5;
+  background-color: #C9DCF5;
 }
 
 
@@ -310,11 +310,20 @@ body {
 }
 
 .team-main{
-  background-color: #C5D0D5;
+  background-color: #C9DCF5;
 }
 .team-pg{
   display: flex;
  
+}
+.join-us{
+  width: 40%;
+  margin:auto;
+  font-family: "Abel", sans-serif;
+  color:#6BA4F2;
+  line-height: 1em;
+  font-size: 2.5vh;
+  text-align:justify;
 }
 /******************************/
 /* research page style */
@@ -389,7 +398,7 @@ body {
 #autophagy-gen-int,
 #telo-mito {
   
-  background-color: #C5D0D5;
+  background-color: #C9DCF5;
   margin-bottom: 0;
   padding-bottom: 0;
   width: 100vw;
@@ -402,7 +411,7 @@ body {
 /*******************************/
 /*contact styling*/
 .main2-philo, .main2-contact {
-  background-color: #C5D0D5;
+  background-color: #C9DCF5;
   padding-bottom: 3em;;
 
   width: 100vw;
@@ -458,7 +467,7 @@ body {
 }
 .contact-body {
   z-index: -2;
-  background-color: #C5D0D5;
+  background-color: #C9DCF5;
   margin:0;
   padding:0;
 }
@@ -526,14 +535,14 @@ body {
   margin-bottom:0;
   padding-bottom:0;
   font-size: 15vh;
-  color: #3089b4;
+  color: #6BA4F2;
   font-weight: bold;
   font-family: "Tilt Warp", cursive;
   background-color: transparent;
   animation: fadeIn 4s;
 }
 .philo_main {
-  color: #d7e6ec;
+  color: #C9DCF5;
   margin:auto;
   
   font-size:3vh;
@@ -548,7 +557,7 @@ body {
   animation: fadeIn 5s;
 }
 .philo-exp {
-  background-color: #C5D0D5;
+  background-color: #C9DCF5;
   color: black;
   font-family: "Abel", sans-serif;
   margin-bottom: 2em;
@@ -559,8 +568,8 @@ body {
   margin-bottom: 0;
 }
 .exp {
-  color: #3089b4;
-  background-color: #C5D0D5;
+  color: #6BA4F2;
+  background-color: #C9DCF5;
   margin-left: 5em;
   font-family: "Abel", sans-serif;
 }
@@ -586,6 +595,7 @@ body {
   text-align: center;
   margin-top: 1em;
   margin-left: 0;
+  border-radius:50%
 }
 .footer {
   padding-top: 0;
@@ -600,7 +610,7 @@ body {
   flex-direction: column;
 }
 #contact {
-  background-color: white;
+  background-color: #6BA4F2;
 
   font-family: "Abel", sans-serif;
 
