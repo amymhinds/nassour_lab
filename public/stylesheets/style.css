@@ -35,7 +35,7 @@ video {
   margin-left:4vh;
 }
 
-a {
+.head_navbar a, .head_navbar_contact a {
   color: #C5D0D5;
   padding: 20px;
   font-size: 2.5vh;
@@ -179,8 +179,8 @@ body {
 }
 
 .fund1 {
-  height: 65%;
-  width: 70%;
+  height: 45%;
+  width: 55%;
   left: 50%;
   justify-content: center;
   text-align: center;
@@ -587,8 +587,9 @@ body {
 }
 .year{
   color:#6BA4F2;
-  text-decoration: underline;
+  font-size: 4vh;
   margin-bottom:0;
+  margin-top:6vh;
 }
 .pub-title{
   font-size: 3vh;
@@ -599,6 +600,7 @@ body {
   margin-top:0;
   padding-top:0;
   color:black;
+  text-decoration: none;
 }
 
 
@@ -621,7 +623,7 @@ body {
 
 .loc,
 .mail {
- 
+ padding:20px;
   padding-top: 0;
   text-align: center;
   margin-top: 1em;
