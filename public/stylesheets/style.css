@@ -35,7 +35,7 @@ video {
   margin-left:4vh;
 }
 
-.head_navbar a, .head_navbar_contact a {
+a {
   color: #C5D0D5;
   padding: 20px;
   font-size: 2.5vh;
@@ -48,7 +48,7 @@ color: black;
 a:hover {
   color: #6BA4F2;
 }
-.mainlink {
+.mainlink, #mainlink{
   color: #6BA4F2;
 }
 .cu-head {
@@ -439,7 +439,7 @@ body {
   font-size: 2.5vh;
  }
  .name3{
-  margin-top:2em;
+
   font-size: 2.5vh;
   
  }
@@ -460,7 +460,7 @@ body {
 }
 .map {
   display: flex;
-  
+  margin-top: 10vh;
   margin-right:0;
 }
 
@@ -579,6 +579,7 @@ body {
   margin-bottom: 0;
 }
 .exp {
+  margin-top:10vh;
   color: #6BA4F2;
   background-color: #C9DCF5;
   margin-left: 5em;
@@ -637,7 +638,7 @@ body {
 }
  .mail{
   margin-top:1.2em;
-  height: 2.7vh;
+  height: 2.5vh;
   width: 3.4vh;
   filter: opacity(.5) drop-shadow(0 0 0 white)
 }
