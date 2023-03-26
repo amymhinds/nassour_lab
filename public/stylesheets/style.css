@@ -174,7 +174,7 @@ body {
 }
 
 .about2 {
-  color: #6BA4F2;
+  color: #5E90D4;
   background-color: #C9DCF5;
 }
 
@@ -325,7 +325,7 @@ body {
   width: 40%;
   margin:auto;
   font-family: "Abel", sans-serif;
-  color:#6BA4F2;
+  color:#5E90D4;
   line-height: 1em;
   font-size: 2.5vh;
   text-align:justify;
@@ -427,7 +427,7 @@ body {
 }
 .help{
   height: 70vh;
-  width: 70vh;
+  width: 80vh;
   border-radius: 20%
  }
  .name{
@@ -441,6 +441,7 @@ body {
  .name3{
   margin-top:2em;
   font-size: 2.5vh;
+  
  }
 .main-contact {
   margin:0;
@@ -480,7 +481,7 @@ body {
   margin-left: 50px;
   font-family: "Abel", sans-serif;
   display: inline-block;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 .cont-img {
   margin-top: 1vh;
@@ -524,6 +525,10 @@ body {
   justify-content: center;
   margin-left: 8em;
 }
+.contact-1{
+  font-size: 2.5vh;
+}
+
 
 /**********************/
 /*philosophy*/
@@ -623,7 +628,7 @@ body {
 
 .loc,
 .mail {
- padding:20px;
+ padding:10px;
   padding-top: 0;
   text-align: center;
   margin-top: 1em;
@@ -654,7 +659,7 @@ body {
   margin-bottom:0;
   padding-bottom:0;
   margin-left: 3vh;
-  margin-top:3vh;
+  margin-top:1vh;
   text-align:center;
  
  }
