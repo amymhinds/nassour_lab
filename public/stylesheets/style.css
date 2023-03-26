@@ -29,17 +29,21 @@ video {
   scroll-behavior: smooth;
 }
 .nlab-logo{
-  width:17%;
-  height:8%;
-  margin-top:3vh;
-  margin-left:3vh;
+  width:12%;
+  height:5%;
+  margin-top:4vh;
+  margin-left:4vh;
 }
+
 a {
   color: #C5D0D5;
   padding: 20px;
-  font-size: 3vh;
+  font-size: 2.5vh;
   text-decoration: none;
   font-family: "Abel", sans-serif;
+}
+.head_navbar_contact a{
+color: black;
 }
 a:hover {
   color: #6BA4F2;
@@ -175,8 +179,8 @@ body {
 }
 
 .fund1 {
-  height: 25%;
-  width: 32%;
+  height: 65%;
+  width: 70%;
   left: 50%;
   justify-content: center;
   text-align: center;
@@ -205,6 +209,7 @@ body {
 } 
 
 .fund1{
+  margin-left:3em;
   margin-right:3em;
 
 }
@@ -583,19 +588,26 @@ body {
 .year{
   color:#6BA4F2;
   text-decoration: underline;
+  margin-bottom:0;
 }
 .pub-title{
   font-size: 3vh;
   margin-bottom:1vh;
   font-weight:900;
 }
+.pub-click{
+  margin-top:0;
+  padding-top:0;
+  color:black;
+}
 
 
 /*****************************/
 /*footer styling*/
+
 .logos {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   text-align: center;
   margin-top: 0;
 
@@ -603,23 +615,62 @@ body {
   border-right-color: transparent;
   border-left-color: transparent;
 }
+
+
 .twitter,
-.youtube,
+
 .loc,
 .mail {
-  height: 5vh;
-  width: 5vh;
+ 
   padding-top: 0;
   text-align: center;
   margin-top: 1em;
   margin-left: 0;
-  border-radius:50%
+
 }
+ .mail{
+  margin-top:1.2em;
+  height: 2.7vh;
+  width: 3.4vh;
+  filter: opacity(.5) drop-shadow(0 0 0 white)
+}
+.twitter{
+  margin-top:1.2em;
+  height:3vh;
+  width:3.5vh;
+  filter: opacity(.5) drop-shadow(0 0 0 white)
+}
+.loc{
+ 
+  height:4vh;
+  width:2.5vh;
+  filter: opacity(.5) drop-shadow(0 0 0 white)
+}
+.copy{
+  display: flex;
+  float:left;
+  margin-bottom:0;
+  padding-bottom:0;
+  margin-left: 3vh;
+  margin-top:3vh;
+  text-align:center;
+ 
+ }
+ .copy p{
+  color: #C5D0D5;
+  text-align: center;
+  justify-content:center;
+  margin-bottom:0;
+  padding-bottom:0;
+ }
+
 .footer {
   padding-top: 0;
   padding-left: 0;
   padding-right: 0.5;
 }
+
+
 #container {
   position: relative;
 
@@ -628,7 +679,7 @@ body {
   flex-direction: column;
 }
 #contact {
-  background-color: #6BA4F2;
+  background-color: #32373D;
 
   font-family: "Abel", sans-serif;
 
