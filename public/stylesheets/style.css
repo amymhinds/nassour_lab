@@ -440,7 +440,7 @@ body {
 .main-contact {
   margin:0;
   padding:0;
-  background-image: url("https://i.imgur.com/uWBGd2p.jpg");
+  background-image: url("https://i.imgur.com/wuRdS8A.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -493,7 +493,7 @@ body {
   text-align: center;
   justify-content: center;
   margin-top:0;
-  padding-top: 30%;
+  padding-top: 20%;
   margin-bottom:0;
   padding-bottom:0;
   font-size: 15vh;
@@ -539,7 +539,7 @@ body {
 @media screen and (max-width:700px){
  
   .h1-title {
-   font-size: 10vh;
+   font-size: 9vh;
   }  
  
 }
@@ -574,6 +574,23 @@ body {
   margin-left: 5em;
   font-family: "Abel", sans-serif;
 }
+/*****************************/
+/*publications*/
+.pub-div{
+  margin:4em;
+  font-family: "Abel", sans-serif;
+}
+.year{
+  color:#6BA4F2;
+  text-decoration: underline;
+}
+.pub-title{
+  font-size: 3vh;
+  margin-bottom:1vh;
+  font-weight:900;
+}
+
+
 /*****************************/
 /*footer styling*/
 .logos {
