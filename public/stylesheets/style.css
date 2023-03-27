@@ -264,8 +264,9 @@ body {
 }
 
 .growing{
-  height:60vh;
-  width:46vh;
+  height:30vh;
+  width:30vh;
+  margin-left: 25%;
   
 }
 .m1-div:hover .member_pic1 {
