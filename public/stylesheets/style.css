@@ -264,9 +264,9 @@ body {
 }
 
 .growing{
-  height:40vh;
-  width:65vh;
-
+  height:60vh;
+  width:46vh;
+  
 }
 .m1-div:hover .member_pic1 {
   opacity: 60%;
@@ -334,6 +334,7 @@ body {
   line-height: 1em;
   font-size: 2.5vh;
   text-align:justify;
+  margin-bottom: 10vh;
 }
 /******************************/
 /* research page style */
