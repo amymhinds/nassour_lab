@@ -28,6 +28,8 @@
   height: 100vh;
   background-color: transparent;
   scroll-behavior: smooth;
+
+
 }
 .nlab-logo{
   width:12%;
@@ -684,7 +686,10 @@ body {
   padding-left: 0;
   padding-right: 0.5;
 }
-
+body{
+  margin:0;
+  padding:0;
+}
 
 #container {
   position: relative;
