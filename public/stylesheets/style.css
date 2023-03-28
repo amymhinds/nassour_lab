@@ -66,13 +66,14 @@ nav {
   margin-top: 3em;
   font-family: "Abel", sans-serif;
   margin-right: 3em;
+  margin-bottom:0;
 }
 
 /* Dropdown Button */
 .dropbtn {
   background-color: transparent;
   color: white;
-  padding-bottom: 2vh;
+  padding-bottom: 1vh;
   font-size: 1.5vh;
   border: none;
 }
