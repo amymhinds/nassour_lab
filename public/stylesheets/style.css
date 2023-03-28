@@ -97,6 +97,7 @@ nav {
   z-index: 1;
   opacity: 50%;
   text-align: center;
+  right:-20%;
 }
 
 /* Links inside the dropdown */
