@@ -1,3 +1,6 @@
+
+
+
 .research-video,  .team-video, .video1 {
   position: absolute;
   z-index: -1;
@@ -400,7 +403,7 @@ body {
   scroll-behavior: smooth;
 }
 .research-video {
-  opacity: 50%;
+  opacity: 90%;
 }
 .research-title{
   font-family: "Abel", sans-serif;
