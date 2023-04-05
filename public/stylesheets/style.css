@@ -233,6 +233,7 @@ body {
 /* team styling*/
 
 
+
 .team-video {
   opacity: 90%;
   overflow: hidden;
@@ -346,6 +347,15 @@ body {
   font-size: 2.5vh;
   text-align:justify;
   margin-bottom: 10vh;
+  
+  
+}
+.join{
+  position: center;
+  margin: auto;
+}
+.growing{
+  filter: opacity(.5) drop-shadow(0 0 0 blue)
 }
 /******************************/
 /* research page style */
@@ -694,7 +704,7 @@ body {
 
 .footer-chromo{
   height:7vh;
-  width:5vh;
+  width:4vh;
   margin-right:2vh;
   
 }
