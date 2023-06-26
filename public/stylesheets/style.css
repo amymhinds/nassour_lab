@@ -14,8 +14,36 @@
   background-color: black;
 }
 
+@media only screen and (max-width: 400px) {
+  .main2 {
+    background-color: #C9DCF5;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 100vw;
+    height: 150%;
+ 
+    font-size: 4.5vw;
+    scroll-behavior: smooth;
+  }
+  .about1, .about2, .about3{
+   
+    background-color: #C9DCF5;
+    color: black;
+    font-family: "Abel", sans-serif;
+    margin-bottom: 2em;
+    text-align: justify;
+    line-height: 1.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0;
+  }
+  .about2{
+    margin-right:4em;
+    text-align: left;
+  }
+}
 
-.main2 {
+@media only screen and (min-width: 400px) {.main2 {
   background-color: #C9DCF5;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -24,6 +52,7 @@
   
   font-size: 1.5vw;
   scroll-behavior: smooth;
+}
 }
 .main {
   position: relative;
@@ -166,7 +195,7 @@ body {
 
 
 
-
+@media only screen and (min-width: 400px) {
 .about1,
 .about2,
 .about3 {
@@ -179,7 +208,7 @@ body {
   margin-left: 10em;
   margin-right: 10em;
   margin-bottom: 0;
-}
+}}
 .about1 {
   padding-top: 1em;
 }
