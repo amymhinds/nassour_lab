@@ -83,7 +83,7 @@ color: black;
 a:hover {
   color: #6BA4F2;
 }
-.mainlink, #mainlink{
+.mainlink, #mainlink, .mainlink2{
   color: #6BA4F2;
 }
 .cu-head {
@@ -125,14 +125,7 @@ nav {
   }
 
   .dropbtn { 
-    background-color: transparent;
-    color: white;
-
-    font-size: 1.5vh;
-    border: none;
-    margin:0;
-    padding-left:0;
-    padding-right:0;
+    display:none;
   }
   
  
@@ -146,6 +139,9 @@ nav {
 /* Dropdown Button */
 
 @media only screen and (min-width: 400px) {
+  .mainlink2{
+    display: none;
+  }
 .dropbtn { 
   background-color: transparent;
   color: white;
@@ -156,6 +152,7 @@ nav {
   padding-left:0;
   padding-right:0;
 }
+
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
