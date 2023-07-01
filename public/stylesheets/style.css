@@ -118,7 +118,7 @@ nav {
 }
   .head_navbar a{
     padding: 2vh;
-    margin-bottom: 1vh;
+    margin-bottom: 1.5vh;
     display: inline;
     justify-content: center; 
     text-align: center;
@@ -620,21 +620,182 @@ body {
 
 /*******************************/
 /*contact styling*/
-.main2-philo, .main2-contact {
-  background-color: #C9DCF5;
-  padding-bottom: 3em;;
 
-  width: 100vw;
-  height: 100%;
-  font-size: 20px;
-  font-size: 1.5vw;
-  scroll-behavior: smooth;
+@media only screen and (max-width: 400px) {
+  .main2-contact{
+    background-color: #C9DCF5;
+    padding-bottom: 3em;;
+    width: 100vw;
+    height: 100%;
+    font-size: 20px;
+    font-size: 1.5vw;
+    scroll-behavior: smooth;
+  }
+.main-contact {
+  margin:0;
+  padding:0;
+  background-image: url("https://i.imgur.com/wuRdS8A.png");
+  background-repeat: no-repeat;
+  width: 50vh;
 }
+
 .help{
-  height: 70vh;
-  width: 80vh;
+  height: 25vh;
+  width: 30vh;
   border-radius: 20%
  }
+ .main-help {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  scroll-behavior: smooth;
+  padding-right:0;
+  margin-right:0;
+
+
+}
+.contact-h1{
+  text-align: center;
+  justify-content: center;
+  margin-top:0;
+  padding-top: 50%;
+  margin-bottom:0;
+  padding-bottom:0;
+  font-size: 8vh;
+  color: white;
+  font-weight: bold;
+  font-family: "Tilt Warp", cursive;
+  background-color: transparent;
+  animation: fadeIn 4s;
+}
+.contact-body{
+  background-color: #C9DCF5;
+}
+.contact{
+  margin-right:3vh;
+  margin-top: 5vh;
+  margin-left: 2vh;
+}
+h1{
+  font-size:5vh;
+}
+.head_navbar_contact{
+  padding:0;
+
+  margin:auto;
+  margin-top: 2vh;
+  text-align: center;
+  justify-content: center; 
+
+}
+.googlemap {
+  height:30%;
+  width:40%;
+  margin-left: 2em;
+ margin-top: 4vh;
+}
+.map {
+  display: flex;
+  margin-top: 4vh;
+  margin-right:0;
+}
+}
+@media only screen and (min-width: 400px) {
+  .main2-contact{
+    background-color: #C9DCF5;
+    padding-bottom: 3em;;
+  
+    width: 100vw;
+    height: 100%;
+    font-size: 20px;
+    font-size: 1.5vw;
+    scroll-behavior: smooth;
+  }
+  .contact-body {
+    z-index: -2;
+    background-color: #C9DCF5;
+    margin:0;
+    padding:0;
+  }
+  .main-contact {
+    margin:0;
+    padding:0;
+    background-image: url("https://i.imgur.com/wuRdS8A.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+ 
+
+  .contact {
+    margin: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ 
+  .cont-img {
+    margin-top: 1vh;
+    height: 60%;
+    width: 60%;
+  }
+  
+  .help{
+    height: 70vh;
+    width: 80vh;
+    border-radius: 20%
+   }
+   .main-help {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    scroll-behavior: smooth;
+  
+  
+  }
+  .contact-h1{
+    text-align: center;
+    justify-content: center;
+    margin-top:0;
+    padding-top: 20%;
+    margin-bottom:0;
+    padding-bottom:0;
+    font-size: 15vh;
+    color: white;
+    font-weight: bold;
+    font-family: "Tilt Warp", cursive;
+    background-color: transparent;
+    animation: fadeIn 4s;
+  }
+  .googlemap {
+    height:30%;
+    width:40%;
+    margin-left: 2em;
+   
+  }
+  .map {
+    display: flex;
+    margin-top: 10vh;
+    margin-right:0;
+  }
+}
+.contact-info {
+  margin-left: 50px;
+  font-family: "Abel", sans-serif;
+  display: inline-block;
+  margin-top: 20px;
+}
+.contact-title {
+  margin:auto;
+  text-align: center;
+  justify-content: center;
+  margin-bottom:0;
+}
+
+
  .name{
   margin-top:2em;
   font-size: 3vh;;
@@ -648,72 +809,10 @@ body {
   font-size: 2vh;
   
  }
-.main-contact {
-  margin:0;
-  padding:0;
-  background-image: url("https://i.imgur.com/wuRdS8A.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-}
-.googlemap {
-  height:30%;
-  width:40%;
-  margin-left: 2em;
- 
- 
-}
-.map {
-  display: flex;
-  margin-top: 10vh;
-  margin-right:0;
-}
 
-.contact {
-  margin: 3em;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.contact-body {
-  z-index: -2;
-  background-color: #C9DCF5;
-  margin:0;
-  padding:0;
-}
-.contact-info {
-  margin-left: 50px;
-  font-family: "Abel", sans-serif;
-  display: inline-block;
-  margin-top: 20px;
-}
-.cont-img {
-  margin-top: 1vh;
-  height: 60%;
-  width: 60%;
-}
 
-.contact-title {
-  margin:auto;
-  text-align: center;
-  justify-content: center;
-  margin-bottom:0;
-}
-.contact-h1{
-  text-align: center;
-  justify-content: center;
-  margin-top:0;
-  padding-top: 20%;
-  margin-bottom:0;
-  padding-bottom:0;
-  font-size: 15vh;
-  color: white;
-  font-weight: bold;
-  font-family: "Tilt Warp", cursive;
-  background-color: transparent;
-  animation: fadeIn 4s;
-}
+
 .email {
   height: 10%;
   width: 10%;
@@ -737,6 +836,15 @@ body {
 
 /**********************/
 /*philosophy*/
+.main2-philo{
+  background-color: #C9DCF5;
+  padding-bottom: 3em;;
+  width: 100vw;
+  height: 100%;
+  font-size: 20px;
+  font-size: 1.5vw;
+  scroll-behavior: smooth;
+}
 
 .h1-title{
   text-align: center;
