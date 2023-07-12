@@ -2,6 +2,9 @@
 body, html{
   overflow-x: hidden;
 }
+::-webkit-scrollbar:horizontal {
+  display: none;
+}
 
 /*try to fix play button on mobile*/
 video::-webkit-media-controls-overlay-play-button {
