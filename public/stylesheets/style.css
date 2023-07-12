@@ -572,9 +572,11 @@ body {
   margin-left: 2em;
 }
 .research-image {
-  height: 25%;
-  width: 25%;
+  height: 35vh;
+  width: 35vh;
   border-radius: 50%;
+
+  
 }
 }
 
