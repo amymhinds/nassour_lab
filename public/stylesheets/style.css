@@ -629,9 +629,9 @@ body {
  
 }
 .research-image {
-  margin-left: 25%;
-  height: 100%;
-  width: 50%;
+  margin: auto;
+  height: 35vh;
+  width: 35vh;
   border-radius: 50%;
   order: 2;
 
