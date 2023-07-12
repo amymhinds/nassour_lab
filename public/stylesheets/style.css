@@ -1,5 +1,31 @@
 
+video::-webkit-media-controls-overlay-play-button {
+  display: none;
+}
 
+*::-webkit-media-controls-panel {
+
+ display: none!important;
+
+ -webkit-appearance: none;
+
+}
+
+*::--webkit-media-controls-play-button {
+
+ display: none!important;
+
+ -webkit-appearance: none;
+
+}
+
+*::-webkit-media-controls-start-playback-button {
+
+ display: none!important;
+
+ -webkit-appearance: none;
+
+}
 
 .research-video,  .team-video, .video1 {
   position: absolute;
