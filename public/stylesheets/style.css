@@ -1,4 +1,4 @@
-
+/*try to fix play button on mobile*/
 video::-webkit-media-controls-overlay-play-button {
   display: none;
 }
