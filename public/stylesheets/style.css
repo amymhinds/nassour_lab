@@ -595,7 +595,8 @@ body {
 }
 .research-title{
   margin-left: 5vh;
-  margin-right: auto;
+  margin-right: 5vh;
+  text-align: center;
   
  
 }
