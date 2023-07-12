@@ -108,7 +108,7 @@ a:hover {
     
     margin-top: 3em;
     font-family: "Abel", sans-serif;
-    margin-right: 3em;
+    
     
 
     /*display: flex;
@@ -155,11 +155,12 @@ a:hover {
   
  
  
-  .dropdown-content
+  .dropdown-content, .dropdown
 
  {
     display: none;
   }
+
   }
 /* Dropdown Button */
 
