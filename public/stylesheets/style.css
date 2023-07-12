@@ -1,3 +1,4 @@
+/*hides scroll bar horizontal*/
 body, html{
   overflow-x: hidden;
 }
