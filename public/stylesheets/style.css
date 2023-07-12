@@ -105,11 +105,20 @@ a:hover {
   }
   nav {
     background-color: transparent;
-    float: right;
+    
     margin-top: 3em;
     font-family: "Abel", sans-serif;
     margin-right: 3em;
-  
+    
+
+    /*display: flex;
+   display: inline;
+    display: inline-block;
+    display: flex;
+    display: inline-flex;
+    display: grid;
+    display: inline-grid;
+    display: flow-root;*/
   }
 .head_navbar{
 
