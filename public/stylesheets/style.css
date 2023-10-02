@@ -388,7 +388,9 @@ body {
 /* team styling*/
 
 
-
+.member-container{
+height: 50%;
+}
 .team-video {
   opacity: 90%;
   overflow: hidden;
@@ -398,61 +400,37 @@ body {
 .member_pic1 {
 
   border-radius: 0%;
-    height: 60%;
-    width: 70%;
+    height: 45vh;
+    width: 35vh;
     margin-bottom:0;
-    margin-top:5vh;
+    margin-top:10vh;
+   
+
     display: flex;
    justify-content: center;
   }
 .member1{
   margin:auto;
-  position: relative;
-  width: 30%;
+  display:grid;
+  grid-template-rows: 1fr 1fr;
   margin-left:10vh;
+  
 }
+
 .m1-div{
  display: flex;
  justify-content: center;
- position:relative;
+ height: 50vh;
  overflow: hidden;
-}
-.pi-div {
-  position: absolute;
-  justify-content: center;
-  top: 5vh;
-  bottom: 0;
-  height: 100%;
-  width: 70%;
-  opacity: 0;
-  transition: .5s ease;
-
+ 
 }
 
-.growing{
-  height:30vh;
-  width:30vh;
-  margin-left: 25%;
-  
-}
-.m1-div:hover .member_pic1 {
-  opacity: 60%;
-}
-.m1-div:hover .pi-div {
-  opacity: 1;
-}
-.pi{
-  font-family: "Abel", sans-serif, bold;
-  color: black;
-  font-size: 3vh;
-  position: absolute;
-  top: 70%;
-  left: 70%;
-  text-align: center;
-  justify-content: center;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
+
+
+
+
+
+
 /*.member_pic1:hover {
   opacity: 60%;
   transition:opacity 2s;
@@ -471,72 +449,64 @@ body {
   text-align:center;
   margin-left:0em;
 }
+.member-name2{
 
+  width:100%;
+  color: black;
+  font-family: "Abel", sans-serif;
+  margin-bottom: 2vh;
+  margin-top: .75vh;
+  justify-content: center;
+  text-align:center;
+  margin-left:0em;
+  font-size: 2.75vh;
+}
 
 .team_desc {
  
-  color: black;
+
   font-family: "Abel", sans-serif;
   margin-bottom: 7vh;
   line-height: 1em;
   font-size: 2.5vh;
- 
+ text-align:justify;
   margin-top: 0em;
   width:100%;
-  text-align:justify;
+
 }
 
 .team-main{
   background-color: #C9DCF5;
 }
 .team-pg{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-right: 10vh;
+  
  
 }
-.join-us{
-  width: 40%;
-  margin:auto;
-  font-family: "Abel", sans-serif;
-  color:#5E90D4;
-  line-height: 1em;
-  font-size: 2.5vh;
-  text-align:justify;
-  margin-bottom: 10vh;
-  
-  
-}
-.join{
-  position: center;
-  margin: auto;
-}
-.growing{
-  filter: opacity(.5) drop-shadow(0 0 0 blue)
-}
+
+
+
 
 
 @media only screen and (max-width: 415px){
   .team-pg {
     display: grid;
+    grid-template-columns: 1fr;
+    margin-right:0;
 
   }
-  .member_pic1{
-    border-radius: 0%;
-    height: 50%;
-    width: 70%;
-    margin-bottom:0;
-    margin-top:5vh;
-    display: flex;
-   justify-content: center;
-  }
-  .member1, .join-us, .growing{
+ 
+  .member1 {
+    display:grid;
+    grid-template-columns: 1fr;
     margin:auto;
     position: relative;
     width: 80%;
-    
+    justify-content: center;
   }
-  .growing {
-    margin-left: 5vh;
-  }
+  
 }
 /******************************/
 /* research page style */
