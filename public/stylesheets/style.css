@@ -400,8 +400,7 @@ height: 50%;
 .member_pic1 {
 
   border-radius: 0%;
-    height: 43vh;
-    width: 35vh;
+    
     margin-bottom:0;
     margin-top:10vh;
    
@@ -439,7 +438,7 @@ height: 50%;
 
 
 .member-name{
-
+font-size: 4vh;
   width:100%;
   color: black;
   font-family: "Abel", sans-serif;
@@ -450,7 +449,7 @@ height: 50%;
   margin-left:0em;
 }
 .member-name2{
-
+font-size: 3.2vh;
   width:100%;
   color: black;
   font-family: "Abel", sans-serif;
@@ -459,7 +458,7 @@ height: 50%;
   justify-content: center;
   text-align:center;
   margin-left:0em;
-  font-size: 2.75vh;
+  
 }
 
 .team_desc {
@@ -487,7 +486,7 @@ height: 50%;
 }
 span {
   font-weight: bolder;
-  font-size: 2.8vh;
+  font-size: 2.7vh;
   }
 
 
