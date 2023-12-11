@@ -491,7 +491,7 @@ font-size: 2.9vh;
 .team-pg{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 90vh 90vh;
+  grid-template-rows: 85vh 85vh;
   margin-right: 10vh;
   
  
