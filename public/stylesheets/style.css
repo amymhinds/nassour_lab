@@ -399,22 +399,32 @@ height: 50%;
 }
 .member_pic1 {
 
-  border-radius: 0%;
+
     height:100;
     width:100;
     margin-bottom:0;
     margin-top:10vh;
    
-
+    border-radius: 10px;
     display: flex;
    justify-content: center;
   }
+  .member_pic_foxy {
+
+   
+      margin-bottom:0;
+      margin-top:10vh;
+     object-fit: contain;
+      border-radius: 10%;
+      display: flex;
+     justify-content: center;
+    }
 .member1{
   margin:auto;
   display:grid;
   grid-template-rows: 1fr 1fr;
   margin-left:10vh;
-  
+
 }
 
 .m1-div{
@@ -481,6 +491,7 @@ font-size: 2.9vh;
 .team-pg{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 90vh 90vh;
   margin-right: 10vh;
   
  
@@ -497,6 +508,7 @@ span {
   .team-pg {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     margin-right:0;
 
   }
