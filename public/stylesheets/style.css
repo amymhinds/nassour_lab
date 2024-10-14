@@ -50,7 +50,7 @@ video::-webkit-media-controls-overlay-play-button {
 
 @media only screen and (max-width: 415px) {
   .main2 {
-    background-color: #C9DCF5;
+    background-color: #f7f8fc;
     margin-bottom: 0;
     padding-bottom: 0;
     width: 100vw;
@@ -61,7 +61,7 @@ video::-webkit-media-controls-overlay-play-button {
   }
   .about1, .about2, .about3{
    
-    background-color: #C9DCF5;
+    background-color: #f7f8fc;
     color: black;
     font-family: "Abel", sans-serif;
     margin-bottom: 2em;
@@ -78,7 +78,7 @@ video::-webkit-media-controls-overlay-play-button {
 }
 
 @media only screen and (min-width: 415px) {.main2 {
-  background-color: #C9DCF5;
+  background-color: #f7f8fc;
   margin-bottom: 0;
   padding-bottom: 0;
   width: 100vw;
@@ -307,7 +307,7 @@ body {
 .about1,
 .about2,
 .about3 {
-  background-color: #C9DCF5;
+  background-color: #f7f8fc;
   color: black;
   font-family: "Abel", sans-serif;
   margin-bottom: 2em;
@@ -332,8 +332,8 @@ body {
 }
 
 .about2 {
-  color: #5E90D4;
-  background-color: #C9DCF5;
+  color: black;
+  background-color: #f7f8fc;
 }
 
 
@@ -360,7 +360,7 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: #C9DCF5;
+  background-color: #f7f8fc;
 }
 
 /*
@@ -486,7 +486,7 @@ font-size: 2.9vh;
 }
 
 .team-main{
-  background-color: #C9DCF5;
+  background-color: #f7f8fc;
 }
 .team-pg{
   display: grid;
@@ -497,7 +497,7 @@ grid-template-rows: 85vh 100vh;
  
 }
 .team-photo{
-  background-color: #C9DCF5;
+  background-color: #f7f8fc;
   margin-bottom: 0;
   padding-bottom: 0;
   width: 100vw;
@@ -559,7 +559,7 @@ span {
 #autophagy-gen-int,
 #telo-mito {
   
-  background-color: #C9DCF5;
+  background-color: #f7f8fc;
   margin-bottom: 0;
   padding-bottom: 0;
   width: 100vw;
@@ -609,7 +609,7 @@ span {
 #autophagy-gen-int,
 #telo-mito {
   
-  background-color: #C9DCF5;
+  background-color: #f7f8fc;
   margin-bottom: 0;
   padding-bottom: 1vh;
   width: 100vw;
@@ -698,7 +698,7 @@ span {
 
 @media only screen and (max-width: 415px) {
   .main2-contact{
-    background-color: #C9DCF5;
+    background-color: #f7f8fc;
     padding-bottom: 3em;;
     width: 100vw;
     height: 100%;
@@ -745,7 +745,7 @@ span {
   animation: fadeIn 4s;
 }
 .contact-body{
-  background-color: #C9DCF5;
+  background-color: #f7f8fc;
 }
 .contact{
   margin-right:4vh;
@@ -785,7 +785,7 @@ h1{
 @media only screen and (min-width: 415px) {
 
   .main2-contact{
-    background-color: #C9DCF5;
+    background-color: #f7f8fc;
     padding-bottom: 3em;;
   
     width: 100vw;
@@ -796,7 +796,7 @@ h1{
   }
   .contact-body {
     z-index: -2;
-    background-color: #C9DCF5;
+    background-color: #f7f8fc;
     margin:0;
     padding:0;
   }
@@ -920,7 +920,7 @@ h1{
 /**********************/
 /*philosophy*/
 .main2-philo{
-  background-color: #C9DCF5;
+  background-color: #f7f8fc;
   padding-bottom: 3em;;
   width: 100vw;
   height: 100%;
@@ -961,7 +961,7 @@ h1{
 @media screen and (max-width:415px){
  
 .philo-exp {
-  background-color: #C9DCF5;
+  background-color: #f7f8fc;
   color: black;
   font-family: "Abel", sans-serif;
   margin-bottom: 5vh;
@@ -976,7 +976,7 @@ h1{
 .exp {
   margin-top:3vh;
   color: #6BA4F2;
-  background-color: #C9DCF5;
+  background-color: #f7f8fc;
   margin-left: 1em;
   font-family: "Abel", sans-serif;
   font-size: 3vh;
@@ -986,7 +986,7 @@ h1{
 
 
 .philo_main {
-  color: #C9DCF5;
+  color: #f7f8fc;
   margin:auto;
   font-size:3vh;
   width:78%
@@ -1002,7 +1002,7 @@ h1{
 @media screen and (min-width:415px) {
 
 .philo-exp {
-  background-color: #C9DCF5;
+  background-color: #f7f8fc;
   color: black;
   font-family: "Abel", sans-serif;
   margin-bottom: 2em;
@@ -1016,7 +1016,7 @@ h1{
 .exp {
   margin-top:10vh;
   color: #6BA4F2;
-  background-color: #C9DCF5;
+  background-color: #f7f8fc;
   margin-left: 5em;
   font-family: "Abel", sans-serif;
 }
